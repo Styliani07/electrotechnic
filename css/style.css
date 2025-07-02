@@ -6,3 +6,17 @@ ul {
 li {
   display: inline;
 }
+footer {
+  display: block;
+}
+h10{
+  font-weight: bold;
+  font-weight: 900;
+}
+.carousel-fade{
+
+}
+img {
+  width: 50%;
+  height: auto;
+}
