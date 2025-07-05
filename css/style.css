@@ -26,4 +26,10 @@ img {
   background-size: cover;
   overflow: hidden;
 }
-
+.iframe {
+  height: 100%
+  width: 100%
+}
+img{
+  border-radius: 50%;
+}
