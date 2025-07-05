@@ -17,6 +17,13 @@ h10{
 
 }
 img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
+.background {
+  background-image: url('https://gifer.com/embed/J59.gif');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
