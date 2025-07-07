@@ -21,12 +21,6 @@ img {
   height: 100%
   width: 100%
 }
-.center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-
-}
 
  /* HOMEPAGE - 1ST SECTION: CAROUSEL */
 .carousel-item {
@@ -81,7 +75,7 @@ img {
 }
 
 /**************************************************************/
-.aboutus-body {
+body {
   background-color: #fff1e7;
 }
 
