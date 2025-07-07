@@ -6,30 +6,93 @@ ul {
 li {
   display: inline;
 }
-footer {
-  display: block;
-}
+
 h10{
   font-weight: bold;
   font-weight: 900;
 }
-.carousel-fade{
 
-}
 img {
   width: 100%;
   height: auto;
 }
-.background {
-  background-image: url('https://gifer.com/embed/J59.gif');
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-}
+
 .iframe {
   height: 100%
   width: 100%
 }
-img{
-  border-radius: 50%;
+
+
+ /* HOMEPAGE - 1ST SECTION: CAROUSEL */
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  height: 85vh;
+  object-fit:cover;
+}
+
+.cover-h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  font-size: 4rem;
+  color: white;
+}
+
+/* HOMEPAGE - 2ND SECTION: GIF BACKGROUND */
+.giffed-section {
+  background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MTFveTJuaGNlNHp0cGxrOGNicnFqbjdrcXRlY2x6d2Exejk1em1jbSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/3o752oeUYz6S2SHi5W/giphy.gif');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  padding: 4rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* HOMEPAGE - 3RD SECTION: SERVICES */
+.services {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+.card-img-top{
+  border-bottom-right-radius:50%;
+}
+
+.card {
+  border:0;
+  box-shadow: 0px 10px 18px 0px #b985d757;
+  min-height: 407px;
+}
+
+/**************************************************************/
+.aboutus-body {
+  background-color: #fff1e7;
+}
+
+
+/**************************************************************/
+/* NAVIGATION BAR */
+.navbar-brand {
+  width:30%;
+}
+
+.navbar-brand img {
+  width: 80%;
+  height: auto;
+}
+
+/**************************************************************/
+footer {
+  display: block;
 }
